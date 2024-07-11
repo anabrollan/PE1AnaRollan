@@ -27,3 +27,4 @@ while (newBook.toLowerCase() !== finish.toLowerCase()) {
 }
 
 alert("Has terminado de ingresar tu lista de libros"); 
+console.log("Se ha cerrado la sesión")
