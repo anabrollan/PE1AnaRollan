@@ -1,7 +1,6 @@
-const helloname = prompt("Ingresa tu nombre");
 
 function welcome(){
-  alert("¡Hola, " + helloname + "!" + " " + "Te doy la bienvenida a esta aplicación de seguimiento de lecturas");
+  alert("¡Hola! Te doy la bienvenida a esta aplicación de seguimiento de lecturas");
 }
 
 welcome();
@@ -9,10 +8,9 @@ welcome();
 let newBook = prompt("Ingresa un título y autor/-a");
 let finish = "salir";
 
-if (newBook == null) {
-  alert("Has salido de la aplicación correctamente");
-  console.log("Has finalizado la aplicación con éxito");
-}
+do {
+  newBook = prompt("Ingresa un título y autor/-a");
+} while (newBook === null);
 
 while (newBook.toLowerCase() !== finish.toLowerCase()) { 
 
