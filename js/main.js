@@ -1,6 +1,11 @@
 let newBook = prompt("Ingrese un título y autor/-a");
 let finish = "salir";
 
+if (newBook == null) {
+  alert("Has salido de la aplicación correctamente");
+  console.log("Has finalizado la aplicación con éxito");
+}
+
 while (newBook.toLowerCase() !== finish.toLowerCase()) { 
 
   if (newBook) {
