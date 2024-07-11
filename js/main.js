@@ -1,5 +1,7 @@
+const helloname = prompt("Ingresa tu nombre");
+
 function welcome(){
-  alert("Te doy la bienvenida a esta aplicación de seguimiento de lecturas");
+  alert("¡Hola, " + helloname + "!" + " " + "Te doy la bienvenida a esta aplicación de seguimiento de lecturas");
 }
 
 welcome();
